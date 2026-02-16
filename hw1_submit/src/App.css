@@ -1,0 +1,37 @@
+/* App-wide page styling. */
+body {
+  /* Required rubric color. */
+  margin: 0;
+  background-color: orange;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  /* Keep app filling at least one viewport height. */
+  min-height: 100vh;
+}
+
+.app-shell {
+  /* Center the homework content area. */
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.panel-grid {
+  /* Responsive two-panel layout for Selector and Display. */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  /* Shared section card style for both panels. */
+  background-color: #fff3df;
+  border: 2px solid maroon;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
