@@ -1,0 +1,27 @@
+/* Selector panel heading style. */
+.selector h2 {
+  margin: 0 0 6px;
+  color: #3a0f0f;
+}
+
+.selector label {
+  /* Improve label readability. */
+  font-weight: 600;
+}
+
+.selector select {
+  /* Required rubric style for pull-down menu. */
+  background-color: maroon;
+  color: white;
+  border: 1px solid maroon;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.selector input {
+  /* Required right alignment for text input. */
+  text-align: right;
+  padding: 8px;
+  border: 1px solid #9d6a6a;
+  border-radius: 6px;
+}

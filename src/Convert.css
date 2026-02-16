@@ -1,0 +1,22 @@
+/* Container for the convert action. */
+.convert-wrap {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.convert-wrap button {
+  /* Required rubric style for button colors and weight. */
+  background-color: maroon;
+  color: white;
+  font-weight: bold;
+  border: 1px solid maroon;
+  border-radius: 8px;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+
+.convert-wrap button:hover {
+  /* Small feedback effect without changing required colors. */
+  opacity: 0.92;
+}

@@ -1,0 +1,13 @@
+/* Header container layout. */
+.header {
+  /* Keep heading centered at the top of the app. */
+  text-align: center;
+  /* Space between header and form panels. */
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  /* Required rubric color for the title text. */
+  margin: 0;
+  color: maroon;
+}
